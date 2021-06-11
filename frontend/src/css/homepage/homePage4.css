@@ -1,0 +1,75 @@
+
+
+ .part3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:5rem;
+    background-color: lightgray;
+   
+}
+
+ .part1 button{
+    padding: 6px;
+    margin: 20px 0;
+    border-radius: 10px;
+    background-color: #00ACB1;
+    width: 230px;
+}
+
+
+.part2{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    height: 45rem;
+    background-color: #9AD8D8;
+    margin-top:8rem ;
+}
+ 
+.part2 .text{
+    padding-top: 5rem;
+}
+
+
+ .part2 .one,.two{
+     width: 20rem;
+     background-color: lightgray;
+     height: 4rem;
+     border-radius: 10px;
+     position: absolute;
+    font-size: 1.5rem;
+ }
+
+ .part2 .one{
+     left:8rem;
+     bottom: 10rem;
+
+ }
+
+ .part2 .two{
+    left:30rem;
+    bottom:10rem;
+
+}
+
+.part2 .img1{
+    position: absolute;
+    height: 500px;
+    width: 280px;
+    border-radius: 20px;
+    top:80px;
+    right:200px;
+    z-index: 1;
+   
+}
+
+ .part2 .img2{
+    position: absolute;
+    height: 500px;
+    width: 280px;
+    border-radius: 20px;
+    top:130px;
+    right:50px;
+    z-index: -0.5;
+}

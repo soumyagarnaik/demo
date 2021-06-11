@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+    
+  }
+  
+  .navbar{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+    padding: 4rem 2rem ;
+  }
+
+  nav {
+    height: 10vh;
+    flex: 1;
+  }
+  
+  .navlinks {
+    display: flex;
+    list-style: none;
+    width: 50%;
+    height: 100%;
+    justify-content: space-around;
+    margin-left: auto;
+    z-index: 4;
+  }
+  
+  .navlinks li a {
+    text-decoration: none;
+    font-size: 16px;
+  }
+
+  .navlinks li a:hover{
+    background-color:#00ACB1;
+    color: white;
+    border-radius: 20px;
+    padding: 7px;
+    transition:all ease-in  .4s;
+
+  }
+  .navlinks li a button{
+      background-color:#00ACB1 ;
+      color: white;
+      border-radius: 20px;
+      width: 4rem;
+  }
+   .quarter{
+    width:800px;
+    height: 550px;
+    border-top-right-radius:0;
+    border-top-left-radius:0;
+    border-bottom-right-radius:0;
+    border-bottom-left-radius:100%;
+    background: #CCEBEB;
+    position: absolute;
+    top:0px;
+    right: 0px;
+    z-index: -1;
+  }
+
+  .content-1{
+      z-index: 2;
+      margin: 1rem 3rem;
+      box-sizing: border-box;
+  }
+  
+  .content1-container{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      
+      
+  }
+
+  .content1-container .title{
+      font-family: 'Playfair Display',serif;
+      line-height: 150%;
+      font-weight: 100;
+  }
+
+  .content1-container .image1{
+      height: 25rem;
+      width:25rem;
+      
+  }
+
+  .content-1 .btn-holder{
+      display: flex;
+      flex-direction: column;
+  }
+
+  .content-1 .btn-1{
+      width: 20rem;
+      padding: 10px;
+      color: #00ACB1;
+      background-color: white;
+      border-radius: 20px;
+      border:1px solid #00ACB1;
+      border-style:none ;
+      margin: 0 0 1rem 10rem;
+      
+  }
+
+  .content-1 .btn-2{
+    width: 20rem;
+    padding: 10px;
+    color: white;
+    background-color: #00ACB1;
+    border-radius: 20px;
+    border-color:white ;
+    margin: 0 10rem;
+}

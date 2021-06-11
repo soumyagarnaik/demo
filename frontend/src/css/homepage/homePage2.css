@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.diagonal-box {
+	background-color:#9AD8D8;
+	transform: skewY(-5deg);
+    margin: 5rem 0;
+    padding: 1rem;
+}
+
+.content {
+	margin: 0 auto;
+	transform: skewY(5deg);
+    height: 70vh;
+    padding-top: 60px;
+
+}
+
+.paperContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    
+}
+
